@@ -1,3 +1,4 @@
+import 'package:fishee/route/routes.dart';
 import 'package:fishee/theme.dart';
 import 'package:fishee/widget/visualize_data.dart';
 import 'package:flutter/material.dart';
@@ -44,7 +45,7 @@ class _DetailScreenTwoState extends State<DetailScreenTwo> {
                       Positioned(
                         child: GestureDetector(
                           onTap: () {
-                            Navigator.pushNamed(context, '/mainscreen');
+                            Navigator.pushNamed(context, Routes.MainScreen);
                           },
                           child: Container(
                             padding: EdgeInsets.all(10),

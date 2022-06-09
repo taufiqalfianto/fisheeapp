@@ -1,3 +1,4 @@
+import 'package:fishee/route/routes.dart';
 import 'package:fishee/widget/indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:fishee/theme.dart';
@@ -59,12 +60,12 @@ class MainScreen extends StatelessWidget {
             ListMenu(
                 text: 'Fish Pod 1',
                 imageurl: 'assets/pod.png',
-                route: '/detailscreen'),
+                route: Routes.DetailScreen),
             SizedBox(height: 35),
             ListMenu(
                 text: 'Fish Pod 2',
                 imageurl: 'assets/pod1.png',
-                route: '/detailscreen2'),
+                route: Routes.DetailScreen2),
           ],
         ),
       ),
